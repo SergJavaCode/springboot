@@ -1,5 +1,7 @@
 package ru.sergjavacode.demospringboot;
 
+import java.io.IOException;
+
 public interface SystemProfile {
-    String getProfile();
+    String getProfile() throws IOException;
 }
